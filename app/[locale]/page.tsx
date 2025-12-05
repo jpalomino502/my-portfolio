@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useRouter } from "@/src/i18n/routing";
+import { useRouter, Link } from "@/src/i18n/routing";
 import { Check } from "lucide-react";
 import { useTranslations } from "next-intl";
 import LanguageSwitcher from "@/src/components/LanguageSwitcher";
@@ -49,11 +49,13 @@ export default function SelectorPage() {
         </div>
 
         <div
-          className="absolute top-12 left-1/2 -translate-x-1/2 z-50 pointer-events-none mix-blend-difference opacity-100"
+          className="absolute top-12 left-1/2 -translate-x-1/2 z-50 mix-blend-difference opacity-100"
         >
-          <p className="text-white font-clean text-[10px] md:text-xs tracking-[0.3em] uppercase whitespace-nowrap font-medium">
-            {t('title')}
-          </p>
+          <Link href="/thanks">
+            <p className="text-white font-clean text-[10px] md:text-xs tracking-[0.3em] uppercase whitespace-nowrap font-medium cursor-pointer hover:opacity-70 transition-opacity">
+              {t('title')}
+            </p>
+          </Link>
         </div>
 
 
