@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState, useRef } from "react";
 import { useTranslations } from "next-intl";
+import { ArrowUpRight } from "lucide-react";
 import NextImage from "next/image";
 import AthlosImg from "@/src/assets/images/projects/Athlos.png";
 import ChefSyncImg from "@/src/assets/images/projects/chefsync.png";
@@ -97,7 +98,9 @@ export default function Projects() {
     title: string;
     category: string;
     description: string;
+    tags: string[];
     imageKey: string;
+    url?: string;
   }>;
 
   const imageMap: Record<string, string> = {
@@ -143,15 +146,42 @@ export default function Projects() {
                     fill
                     className="w-full h-full object-cover"
                   />
-                  <div className="absolute inset-0 bg-linear-to-t from-black via-transparent to-transparent opacity-100" />
+                  <div className="absolute inset-0 bg-linear-to-t from-black via-black/50 to-transparent opacity-100" />
                   <div className="absolute bottom-0 left-0 p-8 w-full">
-                    <div className="flex justify-between items-center mb-4 border-b border-black/10 pb-4">
+                    <div className="flex justify-between items-center mb-4 border-b border-white/20 pb-4">
                       <span className="text-white text-xs font-mono border border-white px-2 py-1 rounded-full">
                         {project.category}
                       </span>
                       <span className="text-4xl font-mono text-white/60">{project.id}</span>
                     </div>
-                    <h4 className="text-4xl text-white font-medium">{project.title}</h4>
+
+                    <div className="flex justify-between items-end gap-4">
+                      <div className="flex-1">
+                        <h4 className="text-4xl text-white font-medium mb-2">{project.title}</h4>
+                        <p className="text-white/80 text-sm max-w-lg line-clamp-3 mb-4 font-light">
+                          {project.description}
+                        </p>
+                        <div className="flex flex-wrap gap-2">
+                          {project.tags.map((tag, i) => (
+                            <span key={i} className="text-[10px] uppercase tracking-wider text-white/70 bg-white/10 px-2 py-1 rounded-sm backdrop-blur-md border border-white/10">
+                              {tag}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+
+                      {project.url && (
+                        <a
+                          href={project.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="w-12 h-12 bg-white rounded-full flex items-center justify-center hover:scale-110 transition-transform shrink-0"
+                          onClick={(e) => e.stopPropagation()}
+                        >
+                          <ArrowUpRight className="w-5 h-5 text-black" />
+                        </a>
+                      )}
+                    </div>
                   </div>
                 </div>
               </div>
