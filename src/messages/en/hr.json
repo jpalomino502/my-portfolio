@@ -1,0 +1,97 @@
+{
+  "HR": {
+    "Hero": {
+      "available": "Available for work",
+      "description": "I am Joseph, a Systems Engineering student at UNAB and a frontend developer with a very personal vision of design. My path began in school, when I was studying electronics and discovered Arduino; that's where I understood that programming made me feel at home.",
+      "viewExperience": "View Experience",
+      "downloadCV": "Download CV"
+    },
+    "Navigation": {
+      "intro": "Home",
+      "experience": "Experience",
+      "projects": "Projects",
+      "connect": "Contact"
+    },
+    "Experience": {
+      "experienceTitle": "Work Experience",
+      "jobs": [
+        {
+          "year": "April 2024–Present",
+          "role": "Founder and Lead Developer",
+          "company": "Webnova",
+          "description": "I have led the development of several innovative applications, including platforms for selling music courses and applications focused on disease monitoring and prevention. I have also created solutions for pest control and an application aimed at improving reading comprehension in Colombia. Additionally, I have incorporated data analysis tools such as Google Analytics and Firebase to evaluate the impact of my applications and continuously improve the user experience. I have developed dashboards to monitor performance, enabling data-driven decision making. To ensure project quality and efficiency, I implemented agile methodologies, promoting collaboration and constant communication within the team. I integrated CI/CD practices, which helped reduce deployment times and improve software delivery efficiency. My focus is on creating technological solutions that address real-world needs and contribute to social development. I always look for new opportunities to innovate, learn new tools and collaborate on projects that have a positive impact on the community.",
+          "tags": ["Google Analytics", "Firebase", "Agile", "CI/CD"]
+        }
+      ],
+      "educationTitle": "Education",
+      "education": [
+        {
+          "year": "2023 - Present",
+          "role": "Systems Engineering",
+          "company": "Universidad Autónoma de Bucaramanga",
+          "description": "Bucaramanga, Colombia"
+        },
+        {
+          "year": "2024",
+          "role": "JavaScript Fundamentals",
+          "company": "CISCO",
+          "description": "Bucaramanga, Colombia"
+        },
+        {
+          "year": "2024",
+          "role": "Python Fundamentals",
+          "company": "CISCO",
+          "description": "Bucaramanga, Colombia"
+        },
+        {
+          "year": "2023",
+          "role": "Full Stack Developer",
+          "company": "UDEMY",
+          "description": "Bucaramanga, Colombia"
+        },
+        {
+          "year": "2022",
+          "role": "Technician in Implementation and Maintenance of Industrial Electronics",
+          "company": "SENA",
+          "description": "Bucaramanga, Colombia"
+        },
+        {
+          "year": "2021",
+          "role": "Computer Maintenance",
+          "company": "SENA",
+          "description": "Bucaramanga, Colombia"
+        }
+      ]
+    },
+    "Projects": {
+      "title": "Featured Projects",
+      "viewCreative": "View Creative Portfolio",
+      "preview": "Preview",
+      "items": [
+        {
+          "title": "Test 1",
+          "desc": "Project description for Test 1.",
+          "tags": ["Tag 1", "Tag 2"],
+          "color": "bg-blue-50"
+        },
+        {
+          "title": "Test 2",
+          "desc": "Project description for Test 2.",
+          "tags": ["Tag 1", "Tag 2"],
+          "color": "bg-orange-50"
+        }
+      ]
+    },
+    "Connect": {
+      "title": "Ready to work together?",
+      "description": "I am currently open to new opportunities. Whether you have a question or just want to say hello, I'll do my best to get back to you!",
+      "cta": "Contact me",
+      "copyright": "© 2025 Joseph",
+      "links": {
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
+        "email": "Email"
+      }
+    }
+  }
+}

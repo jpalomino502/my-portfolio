@@ -1,0 +1,11 @@
+{
+  "NotFound": {
+    "title": "Page not",
+    "titleSpan": "found.",
+    "description": "It seems you are",
+    "descriptionSpan": "lost.",
+    "descriptionEnd": "Return to my professional profile to see my experience and career.",
+    "viewProfessional": "View Professional Profile",
+    "exploreCreative": "Explore Creativity"
+  }
+}

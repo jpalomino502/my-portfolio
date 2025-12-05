@@ -1,0 +1,49 @@
+{
+  "Projects": {
+    "items": [
+      {
+        "id": "01",
+        "slug": "webnova",
+        "title": "Webnova",
+        "category": "Product Studio",
+        "description": "My development venture focused on crafting modern web apps. Built with Vite, Tailwind CSS and MagicUI components, emphasizing fast iterations and polished UI.",
+        "tags": ["Vite", "Tailwind", "MagicUI"],
+        "color": "bg-zinc-50",
+        "imageKey": "webnova",
+        "url": "https://thesocialchoir.com/"
+      },
+      {
+        "id": "02",
+        "slug": "athlos",
+        "title": "Athlos",
+        "category": "Gym System",
+        "description": "Entry/exit tracking, revenue dashboards, attendance alerts and member insights. Designed to give gyms real-time visibility and proactive notifications.",
+        "tags": ["Analytics", "Dashboards", "Alerts"],
+        "color": "bg-blue-50",
+        "imageKey": "Athlos",
+        "url": "https://athlos-zeta.vercel.app/"
+      },
+      {
+        "id": "03",
+        "slug": "condecoro",
+        "title": "Condecoro",
+        "category": "Website Refresh",
+        "description": "Modern redesign powered by Supabase, Vite and Tailwind. Clean layout, improved performance and a contemporary visual language.",
+        "tags": ["Supabase", "Vite", "Tailwind"],
+        "color": "bg-emerald-50",
+        "imageKey": "condecoro"
+      },
+      {
+        "id": "04",
+        "slug": "chefsync",
+        "title": "ChefSync",
+        "category": "SaaS / POS",
+        "description": "My favorite ongoing SaaS: a restaurant POS built with Next.js, Supabase, HeroUI, Tailwind and deployed on Vercel. Includes a Python companion app for silent printing, intuitive UI and practical workflows.",
+        "tags": ["Next.js", "Supabase", "HeroUI", "Tailwind", "Vercel", "Python"],
+        "color": "bg-orange-50",
+        "imageKey": "chefsync",
+        "url": "https://chefsync.co"
+      }
+    ]
+  }
+}

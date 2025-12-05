@@ -1,0 +1,97 @@
+{
+  "HR": {
+    "Hero": {
+      "available": "Disponible para trabajar",
+      "description": "Soy Joseph, estudiante de Ingeniería de Sistemas en la UNAB y desarrollador frontend con una visión muy personal del diseño. Mi camino comenzó en el colegio, cuando estudiaba electrónica y descubrí Arduino; ahí fue donde entendí que programar me hacía sentir en casa.",
+      "viewExperience": "Ver Experiencia",
+      "downloadCV": "Descargar CV"
+    },
+    "Navigation": {
+      "intro": "Inicio",
+      "experience": "Experiencia",
+      "projects": "Proyectos",
+      "connect": "Contacto"
+    },
+    "Experience": {
+      "experienceTitle": "Experiencia Laboral",
+      "jobs": [
+        {
+          "year": "Abril 2024–Presente",
+          "role": "Fundador y Desarrollador Líder",
+          "company": "Webnova",
+          "description": "He liderado el desarrollo de varias aplicaciones innovadoras, incluyendo plataformas para la venta de cursos de música y aplicaciones enfocadas en el monitoreo y prevención de enfermedades. También he creado soluciones para el control de plagas y una aplicación destinada a mejorar la comprensión lectora en Colombia. Además, he incorporado herramientas de análisis de datos como Google Analytics y Firebase para evaluar el impacto de mis aplicaciones y mejorar continuamente la experiencia del usuario. He desarrollado paneles para monitorear el rendimiento, permitiendo la toma de decisiones basada en datos. Para garantizar la calidad y eficiencia del proyecto, implementé metodologías ágiles, promoviendo la colaboración y la comunicación constante dentro del equipo. Integré prácticas de CI/CD, lo que ayudó a reducir los tiempos de despliegue y mejorar la eficiencia en la entrega de software. Mi enfoque está en crear soluciones tecnológicas que aborden necesidades del mundo real y contribuyan al desarrollo social. Siempre busco nuevas oportunidades para innovar, aprender nuevas herramientas y colaborar en proyectos que tengan un impacto positivo en la comunidad.",
+          "tags": ["Google Analytics", "Firebase", "Agile", "CI/CD"]
+        }
+      ],
+      "educationTitle": "Educación",
+      "education": [
+        {
+          "year": "2023 - Presente",
+          "role": "Ingeniería de Sistemas",
+          "company": "Universidad Autónoma de Bucaramanga",
+          "description": "Bucaramanga, Colombia"
+        },
+        {
+          "year": "2024",
+          "role": "Fundamentos de JavaScript",
+          "company": "CISCO",
+          "description": "Bucaramanga, Colombia"
+        },
+        {
+          "year": "2024",
+          "role": "Fundamentos de Python",
+          "company": "CISCO",
+          "description": "Bucaramanga, Colombia"
+        },
+        {
+          "year": "2023",
+          "role": "Desarrollador Full Stack",
+          "company": "UDEMY",
+          "description": "Bucaramanga, Colombia"
+        },
+        {
+          "year": "2022",
+          "role": "Técnico en Implementación y Mantenimiento de Electrónica Industrial",
+          "company": "SENA",
+          "description": "Bucaramanga, Colombia"
+        },
+        {
+          "year": "2021",
+          "role": "Mantenimiento de Computadores",
+          "company": "SENA",
+          "description": "Bucaramanga, Colombia"
+        }
+      ]
+    },
+    "Projects": {
+      "title": "Proyectos Destacados",
+      "viewCreative": "Ver Portafolio Creativo",
+      "preview": "Vista Previa",
+      "items": [
+        {
+          "title": "Prueba 1",
+          "desc": "Descripción del proyecto para Prueba 1.",
+          "tags": ["Etiqueta 1", "Etiqueta 2"],
+          "color": "bg-blue-50"
+        },
+        {
+          "title": "Prueba 2",
+          "desc": "Descripción del proyecto para Prueba 2.",
+          "tags": ["Etiqueta 1", "Etiqueta 2"],
+          "color": "bg-orange-50"
+        }
+      ]
+    },
+    "Connect": {
+      "title": "¿Listo para trabajar juntos?",
+      "description": "Actualmente estoy abierto a nuevas oportunidades. Ya sea que tengas una pregunta o simplemente quieras saludar, ¡haré todo lo posible por responderte!",
+      "cta": "Contáctame",
+      "copyright": "© 2025 Joseph",
+      "links": {
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
+        "email": "Email"
+      }
+    }
+  }
+}

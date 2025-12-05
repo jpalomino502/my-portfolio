@@ -1,0 +1,11 @@
+{
+  "NotFound": {
+    "title": "Página no",
+    "titleSpan": "encontrada.",
+    "description": "Parece que te has",
+    "descriptionSpan": "perdido.",
+    "descriptionEnd": "Regresa a mi perfil profesional para ver mi experiencia y trayectoria.",
+    "viewProfessional": "Ver Perfil Profesional",
+    "exploreCreative": "Explorar Creatividad"
+  }
+}

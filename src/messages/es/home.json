@@ -1,0 +1,96 @@
+{
+  "Home": {
+    "Hero": {
+      "title1": "ESPÍRITU INQUEBRANTABLE.",
+      "title2": "CREATIVIDAD IMPARABLE.",
+      "subtitle": "ROMPIENDO LÍMITES A TRAVÉS DEL DISEÑO.",
+      "scroll": "Deslizar"
+    },
+    "Header": {
+      "about": "Sobre mí",
+      "home": "Inicio",
+      "data": "Datos",
+      "projects": "Proyectos"
+    },
+    "Footer": {
+      "idea": "¿Tienes una idea?",
+      "talk": "Hablemos",
+      "role": "Frontend Developer. Santander, Colombia.",
+      "rights": "Todos los derechos reservados.",
+      "madeWith": "Hecho con React • Next.js • Tailwind"
+    },
+    "About": {
+      "title": "Identidad",
+      "titleSpan": "&",
+      "titleRole": "Rol",
+      "description1": "Soy <strong class=\"font-semibold\">Joseph</strong>, estudiante de Ingeniería de Sistemas de la UNAB y desarrollador frontend con una visión muy personal del diseño. Mi camino comenzó en el colegio, cuando estudiaba electrónica y descubrí Arduino; ahí fue donde entendí que programar me hacía sentir en casa. Más tarde trabajé con Unity, y desde ese momento supe que quería dedicarme a construir experiencias digitales capaces de sorprender.",
+      "description2": "Mi estilo es minimalista moderno, con preferencia por componentes bien definidos, bordes grandes (rounded-4xl) y composiciones limpias. Sin embargo, también disfruto probar estilos alternativos cargados de color, efectos visuales y enfoques creativos fuera de lo tradicional."
+    },
+    "Data": {
+      "title": "Mi Perfil",
+      "titleSpan": "&",
+      "titleFlow": "Flow",
+      "spotify": {
+        "nowPlaying": "REPRODUCIENDO",
+        "recentlyPlayed": "RECIENTEMENTE",
+        "offline": "OFFLINE / VIBE",
+        "notPlaying": "No Reproduciendo",
+        "spotifyName": "Spotify",
+        "genres": "Géneros Escuchados",
+        "topGenre": "Top Género",
+        "recentHistory": "Historia Reciente"
+      },
+      "github": {
+        "title": "Actividad GitHub",
+        "contribsIn": "contribs en",
+        "contribsOn": "contribs el",
+        "prs": "PRs",
+        "commits": "Commits",
+        "totalContribs": "Contribs Totales"
+      },
+      "stack": {
+        "title": "Stack Principal",
+        "description": "Next.js, React, Tailwind CSS, Supabase, Figma, Raycast, Excalidraw"
+      },
+      "skills": {
+        "title": "Habilidades",
+        "description": "Arquitectura de software, diseño minimalista moderno, atención profunda al detalle, enfoque creativo influenciado por arte y música"
+      }
+    },
+    "Projects": {
+      "title": "Mis",
+      "titleSpan": "Trabajos",
+      "scroll": "SCROLL PARA EXPLORAR",
+      "items": [
+        {
+          "id": "01",
+          "title": "Prueba",
+          "category": "Prueba",
+          "description": "prueba",
+          "image": "#"
+        },
+        {
+          "id": "02",
+          "title": "Prueba 2",
+          "category": "Prueba",
+          "description": "prueba",
+          "image": "#"
+        },
+        {
+          "id": "03",
+          "title": "Prueba 3",
+          "category": "Prueba",
+          "description": "prueba",
+          "image": "#"
+        },
+        {
+          "id": "04",
+          "title": "Prueba 4",
+          "category": "Prueba",
+          "description": "prueba",
+          "image": "#"
+        }
+      ]
+    }
+  }
+}

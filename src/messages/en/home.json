@@ -1,0 +1,96 @@
+{
+  "Home": {
+    "Hero": {
+      "title1": "UNBREAKABLE SPIRIT.",
+      "title2": "UNSTOPPABLE CREATIVITY.",
+      "subtitle": "BREAKING LIMITS THROUGH DESIGN.",
+      "scroll": "Scroll"
+    },
+    "Header": {
+      "about": "About me",
+      "home": "Home",
+      "data": "Data",
+      "projects": "Projects"
+    },
+    "Footer": {
+      "idea": "Have an idea?",
+      "talk": "Let's talk",
+      "role": "Frontend Developer. Santander, Colombia.",
+      "rights": "All rights reserved.",
+      "madeWith": "Made with React • Next.js • Tailwind"
+    },
+    "About": {
+      "title": "Identity",
+      "titleSpan": "&",
+      "titleRole": "Role",
+      "description1": "I am <strong class=\"font-semibold\">Joseph</strong>, a Systems Engineering student at UNAB and a frontend developer with a very personal vision of design. My path began in school, when I was studying electronics and discovered Arduino; that's where I understood that programming made me feel at home. Later I worked with Unity, and from that moment I knew I wanted to dedicate myself to building digital experiences capable of surprising.",
+      "description2": "My style is modern minimalist, with a preference for well-defined components, large borders (rounded-4xl) and clean compositions. However, I also enjoy trying alternative styles loaded with color, visual effects and creative approaches outside the traditional."
+    },
+    "Data": {
+      "title": "My Profile",
+      "titleSpan": "&",
+      "titleFlow": "Flow",
+      "spotify": {
+        "nowPlaying": "NOW PLAYING",
+        "recentlyPlayed": "RECENTLY PLAYED",
+        "offline": "OFFLINE / VIBE",
+        "notPlaying": "Not Playing",
+        "spotifyName": "Spotify",
+        "genres": "Genres Listened",
+        "topGenre": "Top Genre",
+        "recentHistory": "Recent History"
+      },
+      "github": {
+        "title": "GitHub Activity",
+        "contribsIn": "contribs in",
+        "contribsOn": "contribs on",
+        "prs": "PRs",
+        "commits": "Commits",
+        "totalContribs": "Total Contribs"
+      },
+      "stack": {
+        "title": "Main Stack",
+        "description": "Next.js, React, Tailwind CSS, Supabase, Figma, Raycast, Excalidraw"
+      },
+      "skills": {
+        "title": "Skills",
+        "description": "Software architecture, modern minimalist design, deep attention to detail, creative approach influenced by art and music"
+      }
+    },
+    "Projects": {
+      "title": "My",
+      "titleSpan": "Works",
+      "scroll": "SCROLL TO EXPLORE",
+      "items": [
+        {
+          "id": "01",
+          "title": "Test",
+          "category": "Test",
+          "description": "test",
+          "image": "#"
+        },
+        {
+          "id": "02",
+          "title": "Test 2",
+          "category": "Test",
+          "description": "test",
+          "image": "#"
+        },
+        {
+          "id": "03",
+          "title": "Test 3",
+          "category": "Test",
+          "description": "test",
+          "image": "#"
+        },
+        {
+          "id": "04",
+          "title": "Test 4",
+          "category": "Test",
+          "description": "test",
+          "image": "#"
+        }
+      ]
+    }
+  }
+}
