@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "../globals.css";
 import "lenis/dist/lenis.css";
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/next"
 import LenisProvider from "@/src/components/lenis-provider";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
@@ -60,6 +61,7 @@ export default async function RootLayout({
   return (
     <html lang={locale} className={inter.variable}>
       <SpeedInsights />
+      <Analytics />
       <LenisProvider />
       <body suppressHydrationWarning={true} className={inter.className}>
         <NextIntlClientProvider messages={messages}>
