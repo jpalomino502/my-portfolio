@@ -175,7 +175,6 @@ async function getTopArtists(access_token: string) {
         }
 
         const data = await response.json();
-        console.log("Top Artists Data (first item):", data.items?.[0]);
         return data;
     } catch (error) {
         console.error("Exception in getTopArtists:", error);
