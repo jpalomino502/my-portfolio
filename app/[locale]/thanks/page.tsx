@@ -169,6 +169,10 @@ export default function ThanksPage() {
                 </div>
 
                 <footer className="mt-32 pt-12 border-t border-zinc-100 text-center">
+                    <Link href="/" className="inline-flex items-center text-zinc-400 hover:text-zinc-900 transition-colors mb-12 group">
+                        <ArrowLeft className="w-4 h-4 mr-2 group-hover:-translate-x-1 transition-transform" />
+                        {t('back')}
+                    </Link>
                     <p className="text-zinc-400 text-sm font-mono">
                         jpalomino.dev
                     </p>
