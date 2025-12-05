@@ -101,7 +101,7 @@ Para obtener una copia local y ponerla en funcionamiento, sigue estos sencillos 
 
 1. **Clonar el repositorio**
    ```bash
-   git clone https://github.com/jpalomino502/joseph.git
+   git clone https://github.com/jpalomino502/my-portfolio.git
    cd joseph
    ```
 
