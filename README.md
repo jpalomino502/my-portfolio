@@ -35,7 +35,7 @@ A modern, dual-path portfolio application built with the latest web technologies
 The project follows a standard Next.js App Router structure, organized to separate the "Creative" and "Professional" aspects:
 
 ```
-joseph/
+my-portfolio/
 ├── app/
 │   ├── [locale]/            # Localized routes (e.g., /en, /es)
 │   │   ├── page.tsx         # 🎨 Creative Landing Page (Main Entry)
@@ -102,7 +102,7 @@ To get a local copy up and running, follow these simple steps.
 1. **Clone the repository**
    ```bash
    git clone https://github.com/jpalomino502/my-portfolio.git
-   cd joseph
+   cd my-portfolio
    ```
 
 2. **Install dependencies**

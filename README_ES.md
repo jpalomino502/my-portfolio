@@ -35,7 +35,7 @@ Una aplicación de portafolio moderna y de doble trayectoria construida con las 
 El proyecto sigue una estructura estándar de Next.js App Router, organizada para separar los aspectos "Creativos" y "Profesionales":
 
 ```
-joseph/
+my-portfolio/
 ├── app/
 │   ├── [locale]/            # Rutas localizadas (ej., /en, /es)
 │   │   ├── page.tsx         # 🎨 Página de Inicio Creativa (Entrada Principal)
@@ -102,7 +102,7 @@ Para obtener una copia local y ponerla en funcionamiento, sigue estos sencillos 
 1. **Clonar el repositorio**
    ```bash
    git clone https://github.com/jpalomino502/my-portfolio.git
-   cd joseph
+   cd my-portfolio
    ```
 
 2. **Instalar dependencias**
