@@ -77,11 +77,11 @@ export default function SelectorPage() {
               {t('creative')}
             </h2>
 
-            <p className={`mt-4  text-neutral-400 uppercase tracking-[0.2em] text-xs md:text-sm transition-all duration-500 delay-100 ${hoveredSide === 'creative' ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
+            <p className="mt-4 text-neutral-400 uppercase tracking-[0.2em] text-xs md:text-sm transition-all duration-500 delay-100 opacity-100 translate-y-0">
               {t('creativeDesc')}
             </p>
 
-            <div className={`mt-8 px-6 py-2 border border-[#486F99] rounded-full text-[#486F99] text-sm font-urban opacity-0 transition-all duration-500 ${hoveredSide === 'creative' ? 'opacity-100 translate-y-0' : 'translate-y-8'}`}>
+            <div className="mt-8 px-6 py-2 border border-[#486F99] rounded-full text-[#486F99] text-sm font-urban opacity-100 transition-all duration-500 translate-y-0">
               {t('viewPortfolio')}
             </div>
           </div>
@@ -107,11 +107,11 @@ export default function SelectorPage() {
               {t('professional')}
             </h2>
 
-            <p className={`mt-4  text-zinc-900 font-medium tracking-wide text-xs md:text-sm transition-all duration-500 delay-100 ${hoveredSide === 'professional' ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
+            <p className="mt-4 text-zinc-900 font-medium tracking-wide text-xs md:text-sm transition-all duration-500 delay-100 opacity-100 translate-y-0">
               {t('professionalDesc')}
             </p>
 
-            <div className={`mt-8 px-6 py-2 border border-black rounded-full text-black text-sm  font-semibold opacity-0 transition-all duration-500 ${hoveredSide === 'professional' ? 'opacity-100 translate-y-0' : 'translate-y-8'}`}>
+            <div className="mt-8 px-6 py-2 border border-black rounded-full text-black text-sm font-semibold opacity-100 transition-all duration-500 translate-y-0">
               {t('viewPortfolio')}
             </div>
           </div>
