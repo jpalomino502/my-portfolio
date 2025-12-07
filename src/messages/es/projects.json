@@ -7,10 +7,14 @@
         "title": "Webnova",
         "category": "Estudio de Producto",
         "description": "Mi emprendimiento de desarrollo centrado en crear apps web modernas. Construido con Vite, Tailwind CSS y componentes de MagicUI, priorizando iteraciones rápidas y una UI pulida.",
-        "tags": ["Vite", "Tailwind", "MagicUI"],
+        "tags": [
+          "Vite",
+          "Tailwind",
+          "MagicUI"
+        ],
         "color": "bg-zinc-50",
         "imageKey": "webnova",
-        "url": "https://thesocialchoir.com/"
+        "url": "https://webnova.com.co"
       },
       {
         "id": "02",
@@ -18,7 +22,11 @@
         "title": "Athlos",
         "category": "Sistema de Gimnasio",
         "description": "Control de ingresos/salidas, paneles de ganancias, alertas de asistencia y métricas de miembros. Diseñado para dar visibilidad en tiempo real y notificaciones proactivas al gimnasio.",
-        "tags": ["Analítica", "Dashboards", "Alertas"],
+        "tags": [
+          "Analítica",
+          "Dashboards",
+          "Alertas"
+        ],
         "color": "bg-blue-50",
         "imageKey": "Athlos",
         "url": "https://athlos-zeta.vercel.app/"
@@ -29,9 +37,14 @@
         "title": "Condecoro",
         "category": "Actualización Web",
         "description": "Rediseño moderno con Supabase, Vite y Tailwind. Maquetación limpia, mejor rendimiento y un lenguaje visual contemporáneo.",
-        "tags": ["Supabase", "Vite", "Tailwind"],
+        "tags": [
+          "Supabase",
+          "Vite",
+          "Tailwind"
+        ],
         "color": "bg-emerald-50",
-        "imageKey": "condecoro"
+        "imageKey": "condecoro",
+        "url": "https://thesocialchoir.com/"
       },
       {
         "id": "04",
@@ -39,7 +52,14 @@
         "title": "ChefSync",
         "category": "SaaS / POS",
         "description": "Mi SaaS favorito en desarrollo: POS para restaurantes usando Next.js, Supabase, HeroUI, Tailwind y desplegado en Vercel. Incluye app en Python para impresión silenciosa, UI intuitiva y flujos prácticos.",
-        "tags": ["Next.js", "Supabase", "HeroUI", "Tailwind", "Vercel", "Python"],
+        "tags": [
+          "Next.js",
+          "Supabase",
+          "HeroUI",
+          "Tailwind",
+          "Vercel",
+          "Python"
+        ],
         "color": "bg-orange-50",
         "imageKey": "chefsync",
         "url": "https://chefsync.co"
