@@ -92,12 +92,12 @@ export default function Header() {
             >
               {t('about')}
             </button>
-            <button
-              onClick={() => scrollToSection("hero")}
+            <a
+              href="/"
               className="text-xl  cursor-pointer text-white/80 hover:text-white transition"
             >
               {t('home')}
-            </button>
+            </a>
           </nav>
 
           <h1 className="font-urban text-3xl md:text-4xl text-white w-auto md:w-1/3 text-left md:text-center z-50 relative">
@@ -138,7 +138,7 @@ export default function Header() {
         `}
       >
         <div className="absolute top-6 right-6">
-           <LanguageSwitcher />
+          <LanguageSwitcher />
         </div>
         <nav className="flex flex-col items-center gap-8 text-2xl  text-white">
           <button onClick={() => scrollToSection("hero")} className="hover:text-gray-400 transition">

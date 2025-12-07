@@ -2,34 +2,23 @@
 
 import { useEffect, useState } from "react";
 import { useRouter, Link } from "@/src/i18n/routing";
-import { Check } from "lucide-react";
+
 import { useTranslations } from "next-intl";
 import LanguageSwitcher from "@/src/components/LanguageSwitcher";
 
 export default function SelectorPage() {
   const router = useRouter();
   const t = useTranslations('Selector');
-  const [dontShowAgain, setDontShowAgain] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [hoveredSide, setHoveredSide] = useState<'creative' | 'professional' | null>(null);
 
 
   useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const savedPreference = localStorage.getItem("portfolio_preference");
-      if (savedPreference) {
-        router.push(savedPreference);
-        setTimeout(() => setIsLoading(false), 1000);
-      } else {
-        setTimeout(() => setIsLoading(false), 0);
-      }
-    }
-  }, [router]);
+    // Artificial delay to prevent flash
+    setTimeout(() => setIsLoading(false), 0);
+  }, []);
 
   const handleSelection = (path: string) => {
-    if (dontShowAgain) {
-      localStorage.setItem("portfolio_preference", path);
-    }
     router.push(path);
   };
 
@@ -116,25 +105,6 @@ export default function SelectorPage() {
             <div className="mt-8 px-6 py-2 border border-black rounded-full text-black text-sm font-semibold opacity-100 transition-all duration-500 translate-y-0">
               {t('viewPortfolio')}
             </div>
-          </div>
-        </div>
-
-        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-50 mix-blend-difference">
-          <div
-            className="group flex items-center gap-3 px-5 py-2.5 rounded-full cursor-pointer transition-all"
-            onClick={(e) => {
-              e.stopPropagation();
-              setDontShowAgain(!dontShowAgain);
-            }}
-          >
-            <div
-              className={`w-4 h-4 border rounded flex items-center justify-center transition-colors ${dontShowAgain ? "bg-white border-white" : "border-white/50 bg-transparent"}`}
-            >
-              {dontShowAgain && <Check className="w-3 h-3 text-black" strokeWidth={3} />}
-            </div>
-            <span className="text-xs text-white tracking-wide select-none group-hover:opacity-80 transition-opacity">
-              {t('dontShowAgain')}
-            </span>
           </div>
         </div>
 

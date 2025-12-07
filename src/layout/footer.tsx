@@ -38,7 +38,7 @@ export default function Footer() {
           </div>
 
           <nav className="grid grid-cols-2 gap-3 md:gap-2 text-white/80 justify-items-center md:justify-items-start text-center md:text-left">
-            <button onClick={() => scrollToId("hero")} className="text-left hover:text-white transition-colors">{tHeader('home')}</button>
+            <a href="/" className="text-left hover:text-white transition-colors">{tHeader('home')}</a>
             <button onClick={() => scrollToId("about")} className="text-left hover:text-white transition-colors">{tHeader('about')}</button>
             <button onClick={() => scrollToId("data")} className="text-left hover:text-white transition-colors">{tHeader('data')}</button>
             <button onClick={() => scrollToId("projects")} className="text-left hover:text-white transition-colors">{tHeader('projects')}</button>
