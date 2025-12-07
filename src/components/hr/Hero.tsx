@@ -42,7 +42,7 @@ const Hero = forwardRef<HTMLElement>((props, ref) => {
                         {["Next.js", "React", "Tailwind CSS", "Supabase", "Vite.js", "Firebase", "Python", "C#", "C++"].map((tech) => (
                             <span
                                 key={tech}
-                                className="px-3 py-1.5 sm:px-4 sm:py-2 bg-white border border-zinc-200 rounded-lg text-sm font-medium text-zinc-600 shadow-sm whitespace-nowrap"
+                                className="px-3 py-1.5 sm:px-4 sm:py-2 bg-white border border-zinc-200 rounded-4xl text-sm font-medium text-zinc-600 shadow-sm whitespace-nowrap"
                             >
                                 {tech}
                             </span>
