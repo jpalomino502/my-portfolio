@@ -15,7 +15,7 @@ interface Vanta {
 declare global {
   interface Window {
     VANTA: Vanta;
-    THREE: unknown;
+    THREE: unknown; 
   }
 }
 
@@ -109,7 +109,7 @@ export default function Hero() {
       className="sticky top-0 w-full h-screen overflow-hidden flex flex-col justify-center items-center bg-black text-white"
     >
       <h1
-        className="text-4xl md:text-5xl font-light tracking-tight text-center z-20 relative"
+        className="font-urban text-4xl md:text-5xl font-light tracking-tight text-center z-20 relative"
         style={{ transform: `translateY(${scrollY * 0.2}px) scaleY(1.05)` }}
       >
         {t('title1')} <br />

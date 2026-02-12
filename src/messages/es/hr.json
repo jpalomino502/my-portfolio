@@ -2,7 +2,7 @@
   "HR": {
     "Hero": {
       "available": "Disponible para trabajar",
-      "description": "Soy Joseph, estudiante de Ingeniería de Sistemas en la UNAB y desarrollador frontend con una visión muy personal del diseño. Mi camino comenzó en el colegio, cuando estudiaba electrónica y descubrí Arduino; ahí fue donde entendí que programar me hacía sentir en casa.",
+      "description": "Soy Joseph, estudiante de Ingeniería de Sistemas en la UNAB y desarrollador frontend apasionado por crear experiencias web rápidas, intuitivas y hermosas con React y Next.js. Actualmente lidero el frontend de mi propio proyecto SaaS, ChefSync.",      
       "viewExperience": "Ver Experiencia",
       "downloadCV": "Descargar CV"
     },
@@ -15,13 +15,13 @@
     "Experience": {
       "experienceTitle": "Experiencia Laboral",
       "jobs": [
-        {
-          "year": "Abril 2024–Presente",
-          "role": "Fundador y Desarrollador Líder",
-          "company": "Webnova",
-          "description": "He liderado el desarrollo de varias aplicaciones innovadoras, incluyendo plataformas para la venta de cursos de música y aplicaciones enfocadas en el monitoreo y prevención de enfermedades. También he creado soluciones para el control de plagas y una aplicación destinada a mejorar la comprensión lectora en Colombia. Además, he incorporado herramientas de análisis de datos como Google Analytics y Firebase para evaluar el impacto de mis aplicaciones y mejorar continuamente la experiencia del usuario. He desarrollado paneles para monitorear el rendimiento, permitiendo la toma de decisiones basada en datos. Para garantizar la calidad y eficiencia del proyecto, implementé metodologías ágiles, promoviendo la colaboración y la comunicación constante dentro del equipo. Integré prácticas de CI/CD, lo que ayudó a reducir los tiempos de despliegue y mejorar la eficiencia en la entrega de software. Mi enfoque está en crear soluciones tecnológicas que aborden necesidades del mundo real y contribuyan al desarrollo social. Siempre busco nuevas oportunidades para innovar, aprender nuevas herramientas y colaborar en proyectos que tengan un impacto positivo en la comunidad.",
-          "tags": ["Google Analytics", "Firebase", "Agile", "CI/CD"]
-        }
+      {
+        "year": "Abril 2024 – Presente",
+        "role": "Fundador y Lead Frontend Developer",
+        "company": "Webnova",
+        "description": "Lidero la arquitectura y desarrollo frontend de ChefSync, mi propio sistema SaaS punto de venta construido con Next.js y React. Creé una aplicación de página única (SPA) altamente interactiva con actualizaciones de datos en tiempo real y capacidades offline completas mediante estrategias local-first. Diseñé e implementé 'ChefManager', una solución de integración de hardware que permite impresión térmica silenciosa directamente desde el navegador a través de un servidor local Python/Flask (win32print en Windows, pycups en Linux), soportando texto e imágenes ESC/POS y llamadas API seamless desde el frontend. Arquitecté un Sistema de Diseño UI unificado con Tailwind CSS y componentes reutilizables, reduciendo el tiempo de desarrollo en un 40%. Desarrollé interfaces responsive mobile-first enfocadas en rendimiento, accesibilidad y mejores prácticas de UX/UI. Colaboré en flujos Figma-to-Code, traduciendo diseños complejos en código TypeScript limpio y mantenible. Implementé un motor de sincronización Local-First (Zustand + TanStack Query) logrando tiempos de carga 60% más rápidos mediante optimizaciones Vite y 100% de uptime offline.",
+        "tags": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Zustand", "TanStack Query", "Vite", "Offline-First", "UI Design System", "Figma-to-Code", "Responsive Design"]
+      }
       ],
       "educationTitle": "Educación",
       "education": [

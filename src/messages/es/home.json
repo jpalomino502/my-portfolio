@@ -23,9 +23,8 @@
       "title": "Identidad",
       "titleSpan": "&",
       "titleRole": "Rol",
-      "description1": "Soy <strong class=\"font-semibold\">Joseph</strong>, estudiante de Ingeniería de Sistemas de la UNAB y desarrollador frontend con una visión muy personal del diseño. Mi camino comenzó en el colegio, cuando estudiaba electrónica y descubrí Arduino; ahí fue donde entendí que programar me hacía sentir en casa. Más tarde trabajé con Unity, y desde ese momento supe que quería dedicarme a construir experiencias digitales capaces de sorprender.",
-      "description2": "Mi estilo es minimalista moderno, con preferencia por componentes bien definidos, bordes grandes (rounded-4xl) y composiciones limpias. Sin embargo, también disfruto probar estilos alternativos cargados de color, efectos visuales y enfoques creativos fuera de lo tradicional."
-    },
+      "description1": "Soy <strong class=\"font-semibold\">Joseph</strong>, estudiante de Ingeniería de Sistemas en la UNAB y desarrollador frontend apasionado por crear aplicaciones web de alto rendimiento y centradas en el usuario. Mi camino comenzó con un interés profundo por la tecnología y el diseño, lo que me llevó a especializarme en frontend moderno con React, Next.js y TypeScript.",
+      "description2": "Mi estilo tiende al minimalismo moderno: composiciones limpias, componentes bien definidos, bordes generosos (rounded-4xl) y espaciado pensado. Dicho esto, también disfruto experimentar con colores audaces, efectos visuales y enfoques creativos cuando el proyecto lo requiere."},
     "Data": {
       "title": "Mi Perfil",
       "titleSpan": "&",

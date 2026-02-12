@@ -98,7 +98,7 @@ const Reveal = ({ children, className = "", animation = "fade-up", delay = 0 }: 
       {children}
     </div>
   );
-};
+}; 
 
 export default function DataSection() {
   const t = useTranslations('Home.Data');
@@ -208,7 +208,7 @@ export default function DataSection() {
     <section id="data" className="relative z-10 isolate w-full bg-black text-white py-32 px-8 md:px-12 border-t border-white/10">
       <div className="max-w-6xl mx-auto">
         <Reveal animation="fade-up">
-          <h2 className="text-4xl md:text-5xl font-light tracking-tighter mb-8">
+          <h2 className="font-urban text-4xl md:text-5xl font-light tracking-tighter mb-8">
             {t('title')} <span className="text-[#486F99]">{t('titleSpan')}</span> {t('titleFlow')}
           </h2>
         </Reveal>

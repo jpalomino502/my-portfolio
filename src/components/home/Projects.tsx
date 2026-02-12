@@ -9,7 +9,7 @@ import CondecoroImg from "@/src/assets/images/projects/condecoro.png";
 import WebnovaImg from "@/src/assets/images/projects/webnova.png";
 
 export default function Projects() {
-  const t = useTranslations('Home.Projects');
+  const t = useTranslations('Home.Projects'); 
   const tp = useTranslations('Projects');
   const horizontalSectionRef = useRef<HTMLDivElement | null>(null);
   const scrollContainerRef = useRef<HTMLDivElement | null>(null);
@@ -120,7 +120,7 @@ export default function Projects() {
 
         <div className="relative w-full px-8 md:px-12 mb-14 z-20">
           <div className="max-w-6xl mx-auto">
-            <h3 className="text-4xl md:text-5xl font-light text-black tracking-tight">
+            <h3 className="text-4xl font-urban md:text-5xl font-light text-black tracking-tight">
               {t('title')} <span className="text-[#486F99]">{t('titleSpan')}</span>
             </h3>
             <p className="text-gray-500 text-sm mt-2 font-mono">

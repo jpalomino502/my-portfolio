@@ -8,7 +8,7 @@ export default function HomeLayout({
 }>) {
     return (
         <>
-            <div suppressHydrationWarning={true} className="font-urban bg-white">
+            <div suppressHydrationWarning={true} className="bg-white">
                 <Header />
                 <main>
                     {children}

@@ -49,7 +49,7 @@ const Reveal = ({ children, className = "", animation = "fade-up", delay = 0 }: 
       style={{ opacity: isVisible ? 1 : 0, transform: getTransform(), transitionDelay: `${delay}ms` }}
     >
       {children}
-    </div>
+    </div> 
   );
 };
 
@@ -61,7 +61,7 @@ export default function AboutSection() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-20 items-center">
         <div className="space-y-12">
           <Reveal animation="fade-up">
-            <h2 className="text-4xl md:text-5xl font-light tracking-tighter mb-8">
+            <h2 className="font-urban text-4xl md:text-5xl font-light tracking-tighter mb-8">
               {t('title')} <span className="text-[#486F99]">{t('titleSpan')}</span> {t('titleRole')}
             </h2>
           </Reveal>
